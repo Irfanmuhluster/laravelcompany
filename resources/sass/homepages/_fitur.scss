@@ -1,0 +1,51 @@
+.fitur {
+    display: grid;
+    @include for-tablet-landscape-up {    
+        grid-template-columns: repeat(2, 1fr);
+    }
+    grid-template-columns: 1fr;
+    grid-gap: 6rem;
+    background-color: green;
+    margin: 0;
+    @include for-tablet-landscape-up {  
+        padding: 6rem;
+    }
+    padding: 2rem;
+    background-color: $indigo-300;
+    bottom: auto;
+    .box-fitur {
+        background-color: $coolGray-50;
+        border-radius: 0.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .fitur-title {
+            padding-left : 2rem;
+            padding-right : 2rem;
+            padding-top: 1.5rem;
+            padding-top: 1.5rem;
+            @include text-xl();
+            color: $coolGray-700;
+            text-align: center;
+            // flex: 1 1 auto;
+            // width: 25rem;
+            overflow: hidden;
+    
+        }
+        .fitur-description {
+            padding-left : 2rem;
+            padding-right : 2rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            color: $coolGray-700;
+            @include text-base();
+            // flex: 1 1 auto;
+            overflow: hidden;
+        }
+    }
+  
+}
+.fitur-bottom {
+    padding-top: 3rem;
+    background-color: rgba(16, 183, 127, 0.9);
+}

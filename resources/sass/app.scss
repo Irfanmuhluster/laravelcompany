@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+@import "variables";
+@import "homepages/mixins";
+@import "layout/navbar";
+@import "layout/footer";
+@import "homepages/base";
+
+@import "homepages/banner";
+@import "homepages/welcome";
+@import "homepages/buttons";
+@import "homepages/layanan";
+@import "homepages/fitur";
+@import "homepages/keunggulan";
+@import "homepages/product";
+
+@import "product/listproduct";

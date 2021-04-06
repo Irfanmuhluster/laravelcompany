@@ -1,0 +1,73 @@
+.navbar-fixed-page {
+    position: relative;
+    color: $coolGray-800;
+    background-color: white;
+}
+
+.navbar-sticky {
+    position: fixed;
+}
+
+.gallery {
+    display: flex;
+    @include for-tablet-landscape-up {    
+        flex-direction: row;
+    }
+    flex-direction: column;
+    flex: 1 1 0%;
+    width: 100%;
+    padding: 3rem;
+    .gallery-sidebar {
+        @include for-tablet-landscape-up {
+            display: flex;
+            width: 25%;
+            margin-right: 1rem;
+        }
+        height: min-content;
+        border-radius: $border-radius-normal;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 0 5px 2px rgba(0,0,0,.03),0 0 10px 5px rgba(0,0,0,.03);
+        overflow: hidden;
+        .card-body {
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1.25rem;
+            .gallery-box-title {
+                padding-bottom: 0.5rem;
+                border-bottom: 1px solid $blueGray-400;
+            }
+            .gallery-category {
+                padding-top: 0.5rem;
+                .item:not(:last-child) {
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
+    .gallery-content {
+        @include for-tablet-landscape-up {
+            display: flex;
+        }
+        flex-direction: column;
+        .title {
+            @include text-xl;
+            font-weight: 700;
+            padding-bottom: 3rem;
+            color: $coolGray-800;
+        }
+        .title-description {
+            @include text-lg;
+            font-weight: 500;
+            letter-spacing: $tracking-wide;
+            
+            padding-right: 4rem;
+            color: $coolGray-600;
+        }
+        width: 100%;
+        padding: 1rem;
+        background-color: transparent;
+        overflow: hidden;
+        // border-radius: 0.25rem
+    }
+}

@@ -1,0 +1,74 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    // background: #348F50;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to bottom, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to bottom, #56B4D3, $emerald-600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    &::before {
+        content: "";
+        background: rgba(0, 0, 0, 0.25);
+        background: linear-gradient(to bottom, rgba(51, 65, 85, 0.5), rgba(51, 65, 85, 0.75)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+    }
+    .banner-items {
+        padding-top: 9rem;
+        padding-bottom: 6rem;
+        @include for-tablet-landscape-up {    
+            padding-left: 9rem;
+            padding-right: 9rem;
+        }
+        padding-left: 3rem;
+        padding-right: 3rem;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        z-index: 10;
+        position: relative;
+    }
+    .banner-title {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        font-weight: $font-extrabold;
+        @include text-xl();
+        color: white;
+    }
+    .banner-desc {
+        @include text-lg();
+        line-height: 1.625;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+        margin-bottom: 1.5rem;
+        color: white;
+    }
+    .custom-shape-divider-bottom-1614753936 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1614753936 svg {
+        position: relative;
+        display: block;
+        width: calc(110% + 1.3px);
+        height: 55px;
+    }
+    
+    .custom-shape-divider-bottom-1614753936 .shape-fill {
+        fill: #f9fafb;
+    }
+}
+

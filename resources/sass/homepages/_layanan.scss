@@ -1,0 +1,100 @@
+.service {
+    display: flex;    
+    @include for-tablet-landscape-up {
+        flex-direction: row;
+    }
+    flex-direction: column;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: $coolGray-50;
+    bottom: auto;
+    .service-box {
+        flex: 1 1 0%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: $border-radius-lg;
+        box-shadow: $shadow-md;
+        background-color: white;
+        text-align: left;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        margin:1rem;
+        color: $coolGray-700;
+        .icon {
+            display: flex;
+            justify-content : center;
+            align-items: center;
+            .flex-icon {
+                padding: 1rem;
+                border-radius: 0.25rem;
+                width: 60px;
+                height: 60px;
+                background-color: $lightBlue-100;
+            }
+        }
+        .service-start {
+            text-align: center;
+            font-weight: $font-medium;
+            color: $emerald-600;
+            padding-bottom: 0.25rem;
+        }
+        .service-welcome-level {
+            color: $gray-500;
+        }
+        .service-title {
+            // padding-top: 1.5rem;
+            text-align: center;
+            font-weight: $font-bold;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+        .service-desc {
+            padding: 1rem;
+            text-align: left;
+            font-weight: $font-medium;
+            @include text-sm();
+            text-align: center;
+            
+            color: $coolGray-500;
+        }
+        .service-price {
+            // padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            text-align: center;
+            font-weight: $font-bold;
+            @include text-3xl();
+            color: $emerald-700;
+        }
+
+        p {
+            text-align: center;
+            font-weight: $font-medium;
+            @include text-base();
+
+        }
+        .service-body {
+            flex-direction: column;
+            flex: 1 1 auto;
+            min-height: 52rem;
+            padding: 1rem;
+            display: flex;
+        }
+    }
+    .center {
+        background-color: $emerald-700;
+        box-shadow: $shadow-lg;
+        color: $coolGray-50 !important;
+    }
+}
+
+.service-with-padding {
+    @include for-tablet-landscape-up {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
