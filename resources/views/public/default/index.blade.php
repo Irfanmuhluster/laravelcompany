@@ -311,16 +311,16 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
     <div class="heading"><h1>Contoh Desain</h1></div>
     <div class="product padding-4">
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/desainbasic.png') }}'); background-size: 100% auto;">
-            <div class="product-box_title"><a href="#">Paket Basic Company Profile</a></div>
+            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=1">Paket Basic Company Profile</a></div>
         </div>
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/tokoonline.png') }}'); background-size: 100% auto;">
-           <div class="product-box_title"><a href="#"> Paket Toko Online</a></div>
+           <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=2"> Paket Toko Online</a></div>
         </div>
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/instansi1.png') }}'); background-size: 100% auto;">
-            <div class="product-box_title"><a href="#">Paket Standart </a></div>
+            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=3">Paket Standart </a></div>
         </div>
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/instansi2.png') }}'); background-size: 100% auto;">
-            <div class="product-box_title"><a href="#">Paket Advance</a></div>
+            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=4">Paket Advance</a></div>
         </div>
     </div>
 </div>

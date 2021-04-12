@@ -26,7 +26,7 @@
             <div class="product">
                 @foreach ($listproduct as $item)
                     <div class="product-box" style="background-image: url('{{ $item->image  ? url("storage/media/product-r-{$item->image}") : '' }}'); background-size: 100% auto;">
-                        <div class="product-box_title"><a href="">{{ $item->product_name }}</a></div>
+                        <div class="product-box_title"><a href="{{ $item->url }}">{{ $item->product_name }}</a></div>
                     </div>
                 @endforeach
             </div>
