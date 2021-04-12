@@ -16,21 +16,26 @@ function WidthChange(mq) {
     if (mq.matches) {
       let toggleBtn = document.querySelector(".nav-link a.dropdown-toggle");
       let toggleBtn2 = document.querySelector(".dropdown-link a.dropdown-toggle");
+      if ( toggleBtn != null) {
+      
       toggleBtn.addEventListener('click', (event) => {
         let element = event.target;
         element.classList.toggle('is-active')
         var next = element.nextElementSibling
         next.classList.toggle('is-active')
       })
-    
-      toggleBtn2.addEventListener('click', (event) => {
-        let element = event.target;
-        element.classList.toggle('is-active')
-        var next = element.nextElementSibling
-        next.classList.toggle('is-active')
-      })
     }
-  }
+    
+    if ( toggleBtn2 != null) {
+        toggleBtn2.addEventListener('click', (event) => {
+          let element = event.target;
+          element.classList.toggle('is-active')
+          var next = element.nextElementSibling
+          next.classList.toggle('is-active')
+        })
+      }
+    }    
+}
   
   var coll = document.getElementsByClassName("collapsible");
   var i;
