@@ -21,7 +21,7 @@ class ProductController extends Controller
         $listcategory = CategoryProduct::select('id','category_name')
         ->get();
 
-        $listproduct = Product::select('category_id','product_name','product_description', 'image', 'publish')
+        $listproduct = Product::select('category_id','url','product_name','product_description', 'image', 'publish')
         ->when($id_category, function ($query, $id_category) {
             return $query->where('category_id', $id_category);
         })
