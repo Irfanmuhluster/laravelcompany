@@ -46,7 +46,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 </div>
                 <p><b>Free</b> Domain .com/ .my.id/ .web.id /.xyz</p>
                 <p><b>Free</b> SSL / HTTP</p>
-                <p><b>Free</b> Hosting 1 GB</p>
+                <p><b>Free</b> Hosting 750 MB Space</p>
                 <p><b>Free</b> Email</p>
                 <p><b>** Free</b> Desain Responsive</p>
                 <p>Bandwidth Unmatered</p>
@@ -58,6 +58,32 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
             <div class="text-center">
                 <div class="service-desc">Perpanjangan 400 ribu/tahun</div>
                 <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Basic Company Profile berbasis Wordpress* untuk website *Company Profile saya*, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-body">
+                <div class="service-title">Paket Toko Online Woocomerce</div>
+                <div class="service-desc">Cocok untuk: Toko Online </div>
+                
+                <div class="service-price">
+                    <strike>Rp. 2 Juta</strike>
+                </div>
+                <div class="service-price">
+                    Rp. 1.5 Juta
+                </div>
+                <p> <b>Free</b> Semua Domain </p>
+                <p><b>Free</b> SSL / HTTP</p>
+                <p><b>Free</b> Hosting  750 MB Space</p>
+                <p><b>Free</b> Email</p>
+                <p><b>** Free</b> Desain Eklusif</p>
+                <p>Bandwidth Unmatered</p>
+                <p><b>Free</b> SEO</p>
+                <p><b>Garansi</b> 1 Tahun</p>
+                <p><b>** CMS Wordpress + Woocomerce</b></p>
+            </div>
+            <div class="text-center">
+                <div class="service-desc">Perpanjangan 500 ribu/tahun</div>
+                <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Basic Toko Online Woocommerce* untuk website *Toko* saya, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
             </div>
         </div>
         
@@ -104,65 +130,11 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                     <p><b>Garansi</b> 1 Tahun</p>
                     <p><b>** CMS Advance</b></p>
             </div>
-                    <div class="text-center">
-                        
-                    <div class="service-desc">Perpanjangan 1 juta/tahun</div>
-                        <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Advance* untuk website *Website Instansi* saya, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
-                    </div>
-        </div>
-    </div>
-    <div class="service service-with-padding">
-        <div class="service-box">
-            <div class="service-body">
-                <div class="service-title">Paket Toko Online WA</div>
-                <div class="service-desc">Cocok untuk: Toko Online sederhana yang hanya menampilkan catalog produk dan berinteraksi lewat whatsapp</div>
+            <div class="text-center">
                 
-                <div class="service-price">
-                    <strike>Rp. 1.5 Juta</strike>
-                </div>
-                <div class="service-price">
-                    Rp. 1 Juta
-                </div>
-                <p> <b>Free</b> Semua Domain </p>
-                <p><b>Free</b> SSL / HTTP</p>
-                <p><b>Free</b> Hosting 2 GB</p>
-                <p><b>Free</b> Email</p>
-                <p><b>** Free</b> Desain Eklusif</p>
-                <p>Bandwidth Unmatered</p>
-                <p><b>Free</b> SEO</p>
-                <p><b>Garansi</b> 1 Tahun</p>
-                <p><b>** CMS Laravel **</b></p>
+            <div class="service-desc">Perpanjangan 1 juta/tahun</div>
+                <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Advance* untuk website *Website Instansi* saya, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
             </div>
-                <div class="text-center">
-                    <div class="service-desc">Perpanjangan 500 ribu/tahun</div>
-                    <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Basic Toko Online WA* untuk website *Toko* saya, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
-                </div>
-        </div>
-        <div class="service-box">
-            <div class="service-body">
-                <div class="service-title">Paket Toko Online Woocomerce</div>
-                <div class="service-desc">Cocok untuk: Toko Online dengan fitur lebih lengkap</div>
-                
-                <div class="service-price">
-                    <strike>Rp. 2 Juta</strike>
-                </div>
-                <div class="service-price">
-                    Rp. 1.5 Juta
-                </div>
-                <p> <b>Free</b> Semua Domain </p>
-                <p><b>Free</b> SSL / HTTP</p>
-                <p><b>Free</b> Hosting 2 GB</p>
-                <p><b>Free</b> Email</p>
-                <p><b>** Free</b> Desain Eklusif</p>
-                <p>Bandwidth Unmatered</p>
-                <p><b>Free</b> SEO</p>
-                <p><b>Garansi</b> 1 Tahun</p>
-                <p><b>** CMS Wordpress + Woocomerce</b></p>
-            </div>
-                <div class="text-center">
-                    <div class="service-desc">Perpanjangan 500 ribu/tahun</div>
-                    <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Basic Toko Online Woocommerce* untuk website *Toko* saya, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
-                </div>
         </div>
     </div>
 </div>
@@ -179,23 +151,6 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 <li>Customisasi Landing Page / Halaman depan</li>
                 <li>Artikel / Post</li>
                 <li>Halaman / Page</li>
-            </ul>
-        </div>
-    </div>
-    <div class="box-fitur">
-        <div class="fitur-title">Fitur CMS Toko Online WA</div>
-        <div class="fitur-description"> <center>Anda lebih sering menggunakan WA untuk berinteraksi dengan pelanggan?</center><br/> Mungkin fitur ini cocok untuk website penjualan Anda. Hanya menampilkan kataog produk, saat pelanggan menekan beli maka langsung membuka aplikasi WA dan link detail produk akan tercantum disitu. Anda akan berinteraksi dengan pelanggan melalui WA.</br>
-        </div>
-        <button class="collapsible2">Lihat Fitur</button>
-        <div class="content">
-            <ul class="fitur-description-list">
-                <li>Customisasi Landing Page / Halaman depan</li>
-                <li>Artikel / Post</li>
-                <li>Halaman / Page</li>
-                <li>Katalog Produk</li>
-                <li>Kategori Produk</li>
-                <li>Detail Produk</li>
-                <li>Hubungi Kami Via WA</li>
             </ul>
         </div>
     </div>
@@ -263,7 +218,6 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                     <li>Testimoni</li>
                     <li>Polling</li>
                     <li>Template Email</li>
-                    <li>Email Berlangganan</li>
                     <li>Banner</li>
                 </ul>
             </div>
@@ -292,7 +246,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 </div>
             </div>
             <div class="keunggulan-title">Fast Loading</div>
-            <p>Website cepat akses dengan waktu loading kurang dari 4 detik untuk meningkatkan kenyamanan pengunjung</p>
+            <p>Waktu akses <i>loading</i> yang cepat untuk meningkatkan kenyamanan pengunjung</p>
         </div>
         <div class="keunggulan-box">
             <div class="icon"> 
