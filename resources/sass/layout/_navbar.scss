@@ -90,7 +90,7 @@ header {
             @include max-table-down {
                 flex: initial;
                 width: 100%;
-                background-color: $gray-500;
+                background-color: white;
                 ul {
                     flex-direction: column;
                 }
