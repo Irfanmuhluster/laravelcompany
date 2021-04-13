@@ -76,7 +76,7 @@
                 <div class="heading"><h1>Hubungi Kami</h1></div>
                 <div class="description">Siap Buat Website ? Hubungi Kami Sekarang</div>
                 <div class="description2"><a href="https://api.whatsapp.com/send?phone=6287734611551&amp;text=Hello Idcodewebs, saya mau buat website...">  <img class="margin-right-1" src="{{ theme_asset_public('frontend::default', 'img/whatsapp.svg') }}" width="24" alt="idcodewebs-contact-us" style="vertical-align: sub">087734611551</a></div>
-                <div class="description">Rt. 02 Rw.04 Drono, Drono, Ngawen, Klaten</div>
+                <div class="description2">Rt. 02 Rw.04 Drono, Drono, Ngawen, Klaten</div>
             </div>
         </div>
         <div class="peta">
