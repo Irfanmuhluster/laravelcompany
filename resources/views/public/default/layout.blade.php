@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ theme_asset_public('frontend::default', 'css/app.css') }}">
-    <meta name="description" content="Jasa Pembuatan Website Idcodewebs - @yield('description')">
+    <meta name="keywords"  content="Jasa Pembuatan Website, jasa pembuatan website murah, web murah dan berkualitas, Web Developer, Pengembangan Website, Webdevelopment, buat website, Toko Online, E-Commerce, Wordpress, Woocommerce, Laravel, Jasa Pembuatan Website Laravel, Paket Website Laravel, Laravel 8, pembuatan website instansi, Pembuatan Website Company Profile, Website Perusahaan, Landing Page,  bikin web, bikin website, jasa pembuatan website di Klaten, Klaten" />
+
+    <meta name="description" content="Jasa Pembuatan Website Idcodewebs - @yield('description') - Klaten">
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="canonical" href="https://idcodewebs.com">
     <meta property="og:locale" content="id_ID">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Jasa Pembuatan Website Idcodewebs - Jasa Pembuatan Website Idcodewebs">
     <meta property="og:description" content="Jasa Pembuatan Website Idcodewebs - Jasa Pembuatan Website
-    Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, Raih Jangkauan Pelanggan Lebih Luas.">
+    Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, Raih Jangkauan Pelanggan Lebih Luas. K">
     <meta property="og:url" content="https://idcodewebs.com">
     <meta property="og:site_name" content="Idcodewebs">
     <meta name="twitter:card" content="summary_large_image">
