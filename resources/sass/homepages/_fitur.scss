@@ -1,7 +1,7 @@
 .fitur {
     display: grid;
     @include for-tablet-landscape-up {    
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     grid-template-columns: 1fr;
     grid-gap: 6rem;

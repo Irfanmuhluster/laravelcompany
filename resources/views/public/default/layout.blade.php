@@ -27,8 +27,8 @@
 </head>
 <body>
     <header class="container">
-        {{-- @dd(Route::has('product')) --}}
-        <nav id="navbar-header" class="navbar container {{ Route::has('public.product') ?  'navbar-sticky' : 'navbar-fixed' }}">
+        {{-- @dd(Route::has('public.product')) --}}
+        <nav id="navbar-header" class="navbar container {{ Route::is('public.product') ?  'navbar-sticky' : 'navbar-fixed' }}">
             <div class="navbar-logo">
                 <div class="logo">Idcodewebs</div>
             </div>
@@ -36,7 +36,7 @@
                 <div class="navbar-links">
                     <ul class="navbar-nav">
                         <li class="nav-link">
-                            <a href="#">Home</a>
+                            <a href="https://idcodewebs.com">Home</a>
                         </li>
                         <li class="nav-link">
                             <a href="#paket">Paket</a>

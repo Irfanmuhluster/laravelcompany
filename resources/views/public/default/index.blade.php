@@ -40,7 +40,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
             <div class="service-body">
                 <div class="service-title">Paket Basic Company Profile</div>
                 <div class="service-desc">Cocok untuk: Company Profile, UKM, Web Personal</div>
-                
+                <div class="service-start">Start from</div>
                 <div class="service-price">
                     Rp. 1.5 Juta
                 </div>
@@ -64,7 +64,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
             <div class="service-body">
                 <div class="service-title">Paket Toko Online Woocomerce</div>
                 <div class="service-desc">Cocok untuk: Toko Online </div>
-                
+                <div class="service-start">Start from</div>
                 <div class="service-price">
                     <strike>Rp. 2 Juta</strike>
                 </div>
@@ -89,9 +89,9 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
         
         <div class="service-box center">
             <div class="service-body">
-                <div class="service-title">Paket Standart</div>
+                <div class="service-title">Paket Laravel</div>
                 <div class="service-desc text-white">Cocok untuk: Perusahaan Menengah, Lembaga, Instansi</div>
-                
+                <div class="service-start text-white">Start from</div>
                 <div class="service-price text-white">
                     Rp. 2 Juta
                 </div>
@@ -103,7 +103,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 <p>Bandwidth Unmatered</p>
                 <p><b>Free</b> SEO</p>
                 <p><b>Garansi</b> 1 Tahun</p>
-                <p><b>** CMS Basic Laravel</b></p>
+                <p><b>** CMS Laravel</b></p>
                
                 
             </div>
@@ -111,30 +111,6 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                     <div class="service-desc text-white">Perpanjangan 500 ribu/tahun</div>
                     <a href="" class="btn btn-primary-emerald-900">Pilih Desain</a>
                 </div>
-        </div>
-        <div class="service-box">
-            <div class="service-body">
-                <div class="service-title">Paket Advance</div>
-                <div class="service-desc">Cocok untuk: Perusahaan Professional, Instansi, Sekolah</div>
-                <div class="service-start">Start from</div>
-                <div class="service-price">
-                    Rp. 4 Juta
-                </div>
-                <p><b>Free</b> Semua Domain .com/ .net/ .org/ .info/ .biz/ .web.id/ .sch.id/ .or.id/ .ac.id/ .my.id/ .biz.id
-                    <p><b>Free</b> SSL / HTTP</p>
-                    <p><b>Free</b> Hosting 2 GB</p>
-                    <p><b>Free</b> Email</p>
-                    <p><b>** Free</b> Desain Responsive</p>
-                    <p>Bandwidth Unmatered</p>
-                    <p><b>Free</b> SEO</p>
-                    <p><b>Garansi</b> 1 Tahun</p>
-                    <p><b>** CMS Advance</b></p>
-            </div>
-            <div class="text-center">
-                
-            <div class="service-desc">Perpanjangan 1 juta/tahun</div>
-                <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Advance* untuk website *Website Instansi* saya, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
-            </div>
         </div>
     </div>
 </div>
@@ -177,7 +153,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
         </div>
     </div>
     <div class="box-fitur">
-        <div class="fitur-title">Fitur CMS Basic Laravel </div>
+        <div class="fitur-title">Fitur CMS Laravel </div>
         <div class="fitur-description">
             CMS yang dibangun dari awal. Lebih <i>User Friendly</i> dan fitur lebih banyak dari pada CMS Wordpress.<br>
         </div>
@@ -191,34 +167,18 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                     <li>Pengaturan User: Manajemen User, Manajemen Peran, Manajemen Hak Akses</li>
                     <li>Fasilitas/ Layanan</li>
                     <li>Sosial Media</li>
-                    <li>Kontak / Hubungi Kami</li>
                     <li>Agenda</li>
                 </ul>
-            </div>
-    </div>
-    <div class="box-fitur">
-        <div class="fitur-title">Fitur CMS Laravel Advance</div>
-        <div class="fitur-description">
-            CMS yang dibangun dari awal. Fitur paling lengkap dan dapat tambah fitur sesuai kebutuhan Anda.
-            
-            
-        </div>
-        <button class="collapsible2">Lihat Fitur</button>
-            <div class="content">
-                <ul class="fitur-description-list">
-                    <li>Pengaturan halaman depan (Tampil dan sembunyikan elemen), Pesan Selamat Datang</li>
-                    <li>Artikel /  News</li>
-                    <li>Halaman / Page</li>
-                    <li>Gallery</li>
-                    <li>Pengaturan User: Manajemen User, Manajemen Peran, Manajemen Hak Akses</li>
-                    <li>Fasilitas / Layanan</li>
-                    <li>Sosial Media</li>
-                    <li>Agenda</li>
+                <h5>Optional :</h5>
+                <ul  class="fitur-description-list">
                     <li>Kontak / Hubungi Kami</li>
                     <li>Testimoni</li>
                     <li>Polling</li>
                     <li>Template Email</li>
                     <li>Banner</li>
+                    <li>Fasilitas / Layanan</li>
+                    <li>Teks Berjalan</li>
+                    <li>Dll</li>
                 </ul>
             </div>
     </div>
