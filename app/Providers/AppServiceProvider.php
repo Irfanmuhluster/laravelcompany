@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Pages;
 use Carbon\Carbon;
+use Harimayco\Menu\Models\MenuItems;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Gate;
@@ -42,7 +43,7 @@ class AppServiceProvider extends ServiceProvider
 
         Paginator::useBootstrap();
 
-        $listpages = Pages::select('title', 'slug', 'content', 'image', 'published')->get();
+        $listpages = MenuItems::where('menu', '2')->get();
 
         View::share('listpages', $listpages);
         // register define gates from config

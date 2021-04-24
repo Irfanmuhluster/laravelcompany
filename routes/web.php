@@ -178,6 +178,6 @@ Route::namespace('Backend')->group(function () {
 Route::namespace('Frontend')->group(function () {
     Route::get('/', [App\Http\Controllers\Frontend\DashboardController::class, 'index'])->name('public.home');
 
-    Route::get('/product', [App\Http\Controllers\Frontend\ProductController::class, 'index'])->name('public.product');
+    Route::get('/desain', [App\Http\Controllers\Frontend\ProductController::class, 'index'])->name('public.product');
     Route::get('/{page}', [App\Http\Controllers\Frontend\PageController::class, 'index'])->name('public.page');
 });

@@ -109,7 +109,7 @@
             <h4>Menu</h4>
             <div class="menu-bawah space-y-2">
                 @foreach ($listpages as $page)
-                    <a href="{{ url($page->slug) }}">{{ $page->title }}</a>
+                    <a href="{{ url($page->link) }}">{{ $page->label }}</a>
                     
                 @endforeach
             </div>
