@@ -67,7 +67,7 @@ class PagesController extends Controller
 
         $page = new Pages();
         $page->title = $request->title;
-        $page->image = $image_name;
+        $page->image = $image_name ?? null;
         $page->content = html_entity_decode($request->content);
 
         $page->slug = ($request->slug != null ) ? $request->slug : date("dmYs").'-'.Str::slug($request->title);

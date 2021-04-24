@@ -38,7 +38,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
     <div class="service">
         <div class="service-box">
             <div class="service-body">
-                <div class="service-title">Paket Basic Company Profile</div>
+                <div class="service-title">Paket Basic</div>
                 <div class="service-desc">Cocok untuk: Company Profile, UKM, Web Personal</div>
                 <div class="service-start">Start from</div>
                 <div class="service-price">
@@ -62,7 +62,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
         </div>
         <div class="service-box">
             <div class="service-body">
-                <div class="service-title">Paket Toko Online Woocomerce</div>
+                <div class="service-title">Paket Toko Online</div>
                 <div class="service-desc">Cocok untuk: Toko Online </div>
                 <div class="service-start">Start from</div>
                 <div class="service-price">
@@ -225,7 +225,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
     <div class="heading"><h1>Contoh Desain</h1></div>
     <div class="product padding-4">
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/desainbasic.png') }}'); background-size: 100% auto;">
-            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=1">Paket Basic Company Profile</a></div>
+            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=1">Paket Basic</a></div>
         </div>
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/tokoonline.png') }}'); background-size: 100% auto;">
            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=2"> Paket Toko Online</a></div>
