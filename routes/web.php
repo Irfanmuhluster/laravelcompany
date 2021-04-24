@@ -131,8 +131,21 @@ Route::namespace('Backend')->group(function () {
                 'edit'  => 'admin.banner.edit'
             ]);
 
+            Route::resource('/pages', '\App\Http\Controllers\Backend\Pages\PagesController')->names([
+                'index' => 'admin.page.index',
+                'show' => 'admin.page.show',
+                'create' => 'admin.page.create',
+                'store' => 'admin.page.store',
+                'update' => 'admin.page.update',
+                'delete' => 'admin.page.destroy',
+                'edit'  => 'admin.page.edit'
+            ]);
+
             Route::get('/settings/welcome_setting', [App\Http\Controllers\Backend\Settings\WelcomeMessageController::class, 'index'])->name('admin.setting.welcome.index');
             Route::post('/settings/welcome_setting/store', [App\Http\Controllers\Backend\Settings\WelcomeMessageController::class, 'store'])->name('admin.setting.welcome.store');
+
+            Route::get('/settings/umum/', [App\Http\Controllers\Backend\Settings\SettingController::class, 'index'])->name('admin.setting.common_setting');
+          
 
             Route::get('/settings/emailtemplate', [App\Http\Controllers\Backend\Settings\SettingController::class, 'emailTemplate'])->name('admin.setting.emailtemplate');
             Route::get('/settings/emailtemplate/{id}', [App\Http\Controllers\Backend\Settings\SettingController::class, 'editemailTemplate'])->name('admin.setting.emailtemplate.edit');
@@ -166,4 +179,5 @@ Route::namespace('Frontend')->group(function () {
     Route::get('/', [App\Http\Controllers\Frontend\DashboardController::class, 'index'])->name('public.home');
 
     Route::get('/product', [App\Http\Controllers\Frontend\ProductController::class, 'index'])->name('public.product');
+    Route::get('/{page}', [App\Http\Controllers\Frontend\PageController::class, 'index'])->name('public.page');
 });

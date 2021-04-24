@@ -147,6 +147,8 @@ class ProductController extends Controller
         $produk->product_description = html_entity_decode($request->product_description);
         $produk->publish = $request->publish ?? 0;
         $produk->save();
+
+        // dd($produk);
        
         
         session()->flash('success', 'Berhasil update data');

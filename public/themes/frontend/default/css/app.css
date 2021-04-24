@@ -358,6 +358,55 @@ header {
   padding-right: 1.5rem;
 }
 
+.kontak {
+  display: grid;
+  padding: 3rem;
+  color: #1f2937;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+  height: 100%;
+  background-color: #f1f5f9;
+  margin: 0;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+@media (min-width: 900px) {
+  .kontak {
+    grid-template-columns: 4fr 4fr 4fr;
+  }
+}
+.kontak .description {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-align: center;
+  padding-bottom: 1.75rem;
+}
+.kontak .description2 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  text-align: center;
+}
+.kontak .footer-contact {
+  margin: 1rem 0;
+}
+.kontak .footer-contact .link {
+  color: #d1d5db !important;
+}
+
+.copyright {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  background-color: #0e7490;
+  font-weight: 600;
+  text-align: center;
+  color: #f9fafb;
+}
+
 footer {
   display: grid;
   padding: 3rem;
@@ -375,36 +424,9 @@ footer {
     grid-template-columns: 4fr 4fr 4fr;
   }
 }
-footer .description {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.025em;
-  text-align: center;
-  padding-bottom: 1.75rem;
-}
-footer .description2 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.025em;
-  text-align: center;
-}
-footer .footer-contact {
-  margin: 1rem 0;
-}
-footer .footer-contact .link {
-  color: #d1d5db !important;
-}
-
-.copyright {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  background-color: #0e7490;
-  font-weight: 600;
-  text-align: center;
-  color: #f9fafb;
+footer .menu-bawah {
+  display: flex;
+  flex-direction: column;
 }
 
 *, :after, :before {
@@ -658,6 +680,10 @@ input:focus, button:focus, textarea:focus {
 .padding-top-bottom-3 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.padding-3 {
+  padding: 3rem;
 }
 
 .padding-4 {
@@ -1484,4 +1510,23 @@ h6 {
   letter-spacing: 0.025em;
   padding-right: 4rem;
   color: #4b5563;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 3rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: white !important;
+  border-radius: 0.25rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "/";
 }

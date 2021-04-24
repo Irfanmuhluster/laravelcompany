@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\CategoryProduct;
+use App\Models\Pages;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
@@ -24,11 +25,12 @@ class ProductController extends Controller
         $listproduct = Product::select('category_id','url','product_name','product_description', 'image', 'publish')
         ->when($id_category, function ($query, $id_category) {
             return $query->where('category_id', $id_category);
-        })
-        ->get();
+        })->get();
         // ->when($request, function ($query, $request) {
         //     return $query->where('id', $request->filter);
         // })
+        
+
         return view('public::product', compact('listcategory', 'listproduct'));
     }
 

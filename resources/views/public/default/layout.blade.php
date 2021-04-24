@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ theme_asset_public('frontend::default', 'css/app.css') }}">
     <meta name="keywords"  content="Jasa Pembuatan Website, jasa pembuatan website murah, web murah dan berkualitas, Web Developer, Pengembangan Website, Webdevelopment, buat website, Toko Online, E-Commerce, Wordpress, Woocommerce, Laravel, Jasa Pembuatan Website Laravel, Paket Website Laravel, Laravel 8, pembuatan website instansi, Pembuatan Website Company Profile, Website Perusahaan, Landing Page,  bikin web, bikin website, jasa pembuatan website di Klaten, Klaten" />
 
-    <meta name="description" content="Jasa Pembuatan Website Idcodewebs - @yield('description') - Klaten">
+    <meta name="description" content="Jasa Pembuatan Website Idcodewebs Klaten - @yield('description') ">
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="canonical" href="https://idcodewebs.com">
     <meta property="og:locale" content="id_ID">
@@ -28,7 +28,7 @@
 <body>
     <header class="container">
         {{-- @dd(Route::has('public.product')) --}}
-        <nav id="navbar-header" class="navbar container {{ Route::is('public.product') ?  'navbar-sticky' : 'navbar-fixed' }}">
+        <nav id="navbar-header" class="navbar container {{ Route::is('public.home') ?  'navbar-fixed' : 'navbar-sticky' }}">
             <div class="navbar-logo">
                 <div class="logo">Idcodewebs</div>
             </div>
@@ -71,7 +71,7 @@
     <main>
         @yield('content')
     </main>
-    <footer id="kontak">
+    <div class="kontak">
         <div>
         </div>
             <div>
@@ -83,6 +83,43 @@
         </div>
         <div class="peta">
           
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h4>Kontak</h4>
+            <p>
+                I can feel a phoenix inside of me. Maybe a reason why all the doors are closed.
+                We go higher and higher. Passport stamps, she's cosmopolitan. Someone said you had your tattoo removed.
+                All my girls vintage Chanel baby. Someone said you had your tattoo removed.
+            </p>            
+        </div>
+        <div>
+            
+            <h4>Menu</h4>
+            <div class="space-y-2">
+                <ul class="contact">
+                    <li><p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg> Jl. Marsda Adisucipto, Yogyakarta, Indonesia 55281 <!--  --></p></li>
+                    <li><p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg> <strong>Phone:</strong> +62-87734611551<!--  --></p></li>
+                    <li><p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg> <strong>Email:</strong> <a href="mailto:humas@uin-suka.ac.id.com"><!--   -->info@domain.com</a></p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="peta">
+            <h4>Menu</h4>
+            <div class="menu-bawah space-y-2">
+                @foreach ($listpages as $page)
+                    <a href="{{ url($page->slug) }}">{{ $page->title }}</a>
+                    
+                @endforeach
+            </div>
         </div>
     </footer>
     <div class="copyright">

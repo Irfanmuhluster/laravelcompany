@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Pages;
 use Carbon\Carbon;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Blade;
@@ -41,6 +42,9 @@ class AppServiceProvider extends ServiceProvider
 
         Paginator::useBootstrap();
 
+        $listpages = Pages::select('title', 'slug', 'content', 'image', 'published')->get();
+
+        View::share('listpages', $listpages);
         // register define gates from config
         // foreach (config('admin.gates') as $name => $views) {
         //     if (is_array($views)) {
