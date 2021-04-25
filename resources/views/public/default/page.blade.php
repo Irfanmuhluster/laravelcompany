@@ -12,7 +12,7 @@
     </ol>
     <div class="heading"><h1>{{ $pagedet->title }}</h1></div>
     <div class="padding-3">
-        {{ $pagedet->content }}
+        {!! $pagedet->content !!}
     </div>
 </div>
 @endsection
