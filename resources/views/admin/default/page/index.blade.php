@@ -40,6 +40,7 @@
                     <th scope="col" width="7%">No</th>
                     <th scope="col"><span class="d-none d-md-block">Judul</span></th>
                     <th scope="col"><span class="d-none d-md-block">Penulis</span></th>
+                    <th scope="col"><span class="d-none d-md-block"><i class="fas fa-eye"></i></span></th>
                     <th scope="col"><span class="d-none d-md-block">Terakhir diperbarui</span></th>
                     <th scope="col">
                        Status
@@ -61,6 +62,9 @@
                     <td>
                        {{ $item->user->name }}
                     </td>
+                    <td>
+                       <a href="{{ url($item->slug) }}"> {{ $item->title }} </a>
+                     </td>
                     <td>
                         {{ showDateTime($item->created_at, 'l, d F Y @H:i') }}
                     </td>
