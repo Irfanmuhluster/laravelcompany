@@ -38,37 +38,38 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
     <div class="service">
         <div class="service-box">
             <div class="service-body">
-                <div class="service-title">Paket Basic</div>
-                <div class="service-desc">Cocok untuk: Company Profile, UKM, Web Personal</div>
+                <div class="service-title">Paket Laravel Standar</div>
+                <div class="service-desc">Cocok untuk: Company Profile, UMKM, Landing Page</div>
                 <div class="service-start">Start from</div>
                 <div class="service-price">
-                    Rp. 1.5 Juta
+                    Rp. 1 Juta
                 </div>
-                <p><b>Free</b> Domain .com/ .my.id/ .web.id /.xyz</p>
+                <p><b>Free</b> Domain .com
                 <p><b>Free</b> SSL / HTTP</p>
-                <p><b>Free</b> Hosting 750 MB Space</p>
+                <p><b>Free</b> Hosting 750 Mb</p>
                 <p><b>Free</b> Email</p>
                 <p><b>** Free</b> Desain Responsive</p>
                 <p>Bandwidth Unmatered</p>
                 <p><b>Free</b> SEO</p>
                 <p><b>Garansi</b> 1 Tahun</p>
-                <p><b>CMS Wordpress</b></p>
-             
+                <p><b>** CMS Laravel</b></p>
+               
+                
             </div>
-            <div class="text-center">
-                <div class="service-desc">Perpanjangan 400 ribu/tahun</div>
-                <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Basic Company Profile berbasis Wordpress* untuk website *Company Profile saya*, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
-            </div>
+                <div class="text-center">
+                    <div class="service-desc text-white">Perpanjangan 500 ribu/tahun</div>
+                    <a href="" class="btn btn-primary-emerald-900">Pilih Desain</a>
+                </div>
         </div>
-        <div class="service-box">
+        <div class="service-box center">
             <div class="service-body">
                 <div class="service-title">Paket Toko Online</div>
-                <div class="service-desc">Cocok untuk: Toko Online </div>
-                <div class="service-start">Start from</div>
-                <div class="service-price">
+                <div class="service-desc  text-white">Cocok untuk: Toko Online </div>
+                <div class="service-start  text-white">Start from</div>
+                <div class="service-price  text-white">
                     <strike>Rp. 2 Juta</strike>
                 </div>
-                <div class="service-price">
+                <div class="service-price text-white">
                     Rp. 1.5 Juta
                 </div>
                 <p> <b>Free</b> Semua Domain </p>
@@ -87,12 +88,12 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
             </div>
         </div>
         
-        <div class="service-box center">
+        <div class="service-box">
             <div class="service-body">
-                <div class="service-title">Paket Laravel</div>
-                <div class="service-desc text-white">Cocok untuk: Perusahaan Menengah, Lembaga, Instansi</div>
-                <div class="service-start text-white">Start from</div>
-                <div class="service-price text-white">
+                <div class="service-title">Paket Laravel Advance</div>
+                <div class="service-desc">Cocok untuk: Perusahaan Menengah, Lembaga, Instansi</div>
+                <div class="service-start">Start from</div>
+                <div class="service-price">
                     Rp. 2 Juta
                 </div>
                 <p><b>Free</b> Semua Domain .com/ .net/ .org/ .info/ .biz/ .web.id/ .sch.id/ .or.id/ .ac.id/ .my.id/ .biz.id
@@ -115,21 +116,6 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
     </div>
 </div>
 <div  id="fitur" class="container fitur">
-    <div class="box-fitur">
-        <div class="fitur-title">Fitur CMS Wordpress </div>
-        <div class="fitur-description">
-            CMS wordpress adalah cms yang mudah digunakan cocok untuk landing page dan website company profile yang sederhana.<br>
-            
-        </div>
-        <button class="collapsible2">Lihat Fitur</button>
-        <div class="content">
-            <ul class="fitur-description-list">
-                <li>Customisasi Landing Page / Halaman depan</li>
-                <li>Artikel / Post</li>
-                <li>Halaman / Page</li>
-            </ul>
-        </div>
-    </div>
     <div class="box-fitur">
         <div class="fitur-title">Fitur CMS Wordpress + Woocomerce</div>
         <div class="fitur-description"> Woocomerce adalah plugin yang digunakan pada CMS Wordpress yang memudahkan mengelola toko online.</br>
@@ -224,17 +210,14 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
 <div  id="desain" class="container">
     <div class="heading"><h1>Contoh Desain</h1></div>
     <div class="product padding-4">
-        <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/desainbasic.png') }}'); background-size: 100% auto;">
-            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=1">Paket Basic</a></div>
-        </div>
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/tokoonline.png') }}'); background-size: 100% auto;">
-           <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=2"> Paket Toko Online</a></div>
+           <div class="product-box_title"><a href="https://idcodewebs.com/desain?filter=2"> Paket Toko Online</a></div>
         </div>
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/instansi1.png') }}'); background-size: 100% auto;">
-            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=3">Paket Standart </a></div>
+            <div class="product-box_title"><a href="https://idcodewebs.com/desain?filter=1">Paket Standart </a></div>
         </div>
         <div class="product-box" style="background-image: url('{{ theme_asset_public('frontend::default', 'img/instansi2.png') }}'); background-size: 100% auto;">
-            <div class="product-box_title"><a href="https://idcodewebs.com/product?filter=4">Paket Advance</a></div>
+            <div class="product-box_title"><a href="https://idcodewebs.com/desain?filter=4">Paket Advance</a></div>
         </div>
     </div>
 </div>
