@@ -57,7 +57,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 
             </div>
                 <div class="text-center">
-                    <div class="service-desc text-white">Perpanjangan 500 ribu/tahun</div>
+                    <div class="service-desc">Perpanjangan 500 ribu/tahun</div>
                     <a href="" class="btn btn-primary-emerald-900">Pilih Desain</a>
                 </div>
         </div>
@@ -83,7 +83,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 <p><b>** CMS Wordpress + Woocomerce</b></p>
             </div>
             <div class="text-center">
-                <div class="service-desc">Perpanjangan 500 ribu/tahun</div>
+                <div class="service-desc  text-white">Perpanjangan 500 ribu/tahun</div>
                 <a href="https://api.whatsapp.com/send?phone=+6287734611551&amp;text=Hello, saya tertarik dengan paket pembuatan website *Paket Basic Toko Online Woocommerce* untuk website *Toko* saya, bisa minta informasinya lebih lanjut.. ?" class="btn btn-primary-emerald">Pilih Paket</a>
             </div>
         </div>
@@ -109,7 +109,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 
             </div>
                 <div class="text-center">
-                    <div class="service-desc text-white">Perpanjangan 500 ribu/tahun</div>
+                    <div class="service-desc">Perpanjangan 500 ribu/tahun</div>
                     <a href="" class="btn btn-primary-emerald-900">Pilih Desain</a>
                 </div>
         </div>
