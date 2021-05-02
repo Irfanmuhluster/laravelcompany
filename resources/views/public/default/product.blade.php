@@ -14,6 +14,9 @@
                     <h4>Pilih Kategori Desain</h4>
                 </div>
                 <div class="gallery-category">
+                    <div class="item">
+                        <a href="{{ route('public.product') }}">Semua Desain</a>
+                    </div>
                     @foreach ($listcategory as $item)
                     <div class="item">
                         <a href="{{ route('public.product',['filter' => $item->id]) }}">{{ $item->category_name }}</a>
