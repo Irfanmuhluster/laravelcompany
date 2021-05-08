@@ -13,7 +13,10 @@ class PageController extends Controller
     {
         // dd($page);
         $pagedet = Pages::where('slug', $page)->first();
-        // dd($pagedet);
+
+        if ($pagedet == null) {
+            abort(404);
+        }
         return view('public::page', compact('pagedet'));
     }
 }
