@@ -42,6 +42,9 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                 <div class="service-desc">Cocok untuk: Company Profile, UMKM, Landing Page</div>
                 <div class="service-start">Start from</div>
                 <div class="service-price">
+                    <strike>Rp. 1.5 Juta</strike>
+                </div>
+                <div class="service-price">
                     Rp. 1 Juta
                 </div>
                 <p><b>Free</b> Domain .com
