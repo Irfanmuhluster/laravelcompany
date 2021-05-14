@@ -167,6 +167,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                     <li>Banner</li>
                     <li>Fasilitas / Layanan</li>
                     <li>Teks Berjalan</li>
+                    <li>Link Eksternal</li>
                     <li>Dll</li>
                 </ul>
             </div>

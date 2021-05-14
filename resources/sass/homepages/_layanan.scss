@@ -5,10 +5,12 @@
     }
     flex-direction: column;
     width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    @include for-tablet-landscape-up {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
     background-color: $coolGray-50;
     bottom: auto;
     .service-box {
