@@ -164,6 +164,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
                     <li>Testimoni</li>
                     <li>Polling</li>
                     <li>Template Email</li>
+                    <li>Newsletter</li>
                     <li>Banner</li>
                     <li>Fasilitas / Layanan</li>
                     <li>Teks Berjalan</li>
