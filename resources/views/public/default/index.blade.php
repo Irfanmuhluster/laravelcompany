@@ -149,7 +149,7 @@ Onlinekan Bisnis atau Perusahaan Anda, Buat Perusahaan Anda Lebih Professional, 
         <button class="collapsible2">Lihat Fitur</button>
             <div class="content">
                 <ul class="fitur-description-list">
-                    <li>Pengaturan halaman depan (Tampil dan sembunyikan elemen), Pesan Selamat Datang</li>
+                    <li> Pesan Selamat Datang</li>
                     <li>Artikel /  News</li>
                     <li>Halaman / Page</li>
                     <li>Gallery</li>
