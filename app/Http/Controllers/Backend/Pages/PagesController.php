@@ -70,7 +70,7 @@ class PagesController extends Controller
         $page->image = $image_name ?? null;
         $page->content = html_entity_decode($request->content);
 
-        $page->slug = ($request->slug != null ) ? $request->slug : date("dmYs").'-'.Str::slug($request->title);
+        $page->slug = Str::slug($request->title);
         $page->published = $request->publish ?? 0;
         $page->created_by_id = \Auth::id();
 
@@ -141,7 +141,7 @@ class PagesController extends Controller
         $page->title = $request->title;
         $page->content = html_entity_decode($request->content);
 
-        $page->slug = ($request->slug != null ) ? $request->slug : date("dmYs").'-'.Str::slug($request->title);
+        $page->slug = Str::slug($request->title);
         $page->published = $request->publish ?? 0;
         $page->created_by_id = \Auth::id();
         $page->updated_by_id = \Auth::id();
